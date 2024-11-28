@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Choques en Pista de Carros</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Choques en Pista de Carros</h1>
+        <label for="speed1">Velocidad Inicial del Auto 1 (m/s) (Blanco):</label>
+        <input type="number" id="speed1" value="2" min="1" step="0.5">
+        <label for="speed2">Velocidad Inicial del Auto 2 (m/s) (Rojo):</label>
+        <input type="number" id="speed2" value="2" min="1" step="0.5">
+        <button onclick="startCarCrash()">Iniciar Simulación</button>
+        <button onclick="resetSimulation()">Reiniciar</button>
+        <canvas id="carCrashCanvas" width="800" height="400"></canvas>
+        <p>Tiempo Transcurrido: <span id="crashTime">0</span> s</p>
+        <p><a href="index.html" class="simulator-btn">Regresar</a></p>
+    </div>
+    <script src="choques.js"></script>
+</body>
+</html>

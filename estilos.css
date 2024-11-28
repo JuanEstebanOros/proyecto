@@ -1,0 +1,88 @@
+body {
+    background-image:url(fondo3.jpg);  /* Fondo blanco */
+    color: #030303; /* Ajustar color del texto para mejor contraste */
+    font-family: Arial, sans-serif;
+   
+}
+
+.container {
+    background: rgb(78, 78, 233); /* Fondo */
+    border-radius: 10px;
+    padding: 30px;
+    width: 450px;
+    margin: 80px auto;
+    text-align: center;
+    border: 5px solid #14128d; /* Borde  */
+    
+    
+}
+
+.simulator-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-decoration-color: #0f0f0f;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #eeff00; /* Título en amarillo oscuro */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black; /* Color de las etiquetas en negro */
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #eecc0b; /* Botón amarillo oscuro */
+    color: #000000; /* Texto del botón en azul oscuro */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccac00; /* Efecto hover */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.simulator-btn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #2f2fc5; /* Botón de simulador e incio */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.simulator-btn:hover {
+    background-color: #2f39c5;
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px; /* Ajustar tamaño según sea necesario */
+   background-color: white;
+}
